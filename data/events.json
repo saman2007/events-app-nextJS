@@ -1,0 +1,51 @@
+[
+  {
+    "title": "christmas party",
+    "date": "25-Dec-2022",
+    "address": "elm street, star alley 5, plate 134",
+    "description": "everyone can come to this party! we'll give you food and dessert for free.",
+    "image": "../public/images/binary-rain.jpg"
+  },
+  {
+    "title": "birthday party",
+    "date": "7-Mar-2027",
+    "address": "green street, web alley 8, plate 666",
+    "description": "if you want to come, come with two or more gifts :))",
+    "image": "../public/images/binary-world.jpg"
+  },
+  {
+    "title": "wedding anniversary ceremony",
+    "date": "12-May-2025",
+    "address": "best street, flower alley 9, plate 4",
+    "description": "if your invited, you can come :)",
+    "image": "../public/images/cpu.jpg"
+  },
+  {
+    "title": "free code class",
+    "date": "29-June-2023",
+    "address": "code street, JS alley 6, plate 1",
+    "description": "everyone can come to this class! even you! for free!",
+    "image": "../public/images/css-2.jpg"
+  },
+  {
+    "title": "graduate party",
+    "date": "25-Feb-2024",
+    "address": "red street, survival alley 2, plate 222",
+    "description": "if your my classmate, you can come!",
+    "image": "../public/images/css.jpg"
+  },
+  {
+    "title": "corona party",
+    "date": "2-Nov-2022",
+    "address": "virous street, corona alley 5, plate 666",
+    "description": "come to this party to be happy that funcking corona virous left!",
+    "image": "../public/images/hello-world.jpg"
+  },
+  {
+    "title": "killer party",
+    "date": "5-Aug-2022",
+    "address": "murder street, kill alley 5, plate 666",
+    "description": "would you like to die? come to this party >:)",
+    "image": "../public/images/matris-world.jpg"
+  }
+]
