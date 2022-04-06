@@ -5,9 +5,9 @@ import Title from "./Title";
 
 const EventCard = (props) => {
   const { title, date, address, path, imgSrc } = props;
-
+  
   return (
-    <div className="bg-slate-200 flex w-[98%] rounded-[10px] sm:w-[580px] h-[260px] transition duration-300 shadow-md hover:shadow-lg m-auto">
+    <div className="bg-slate-200 mb-[15px] flex w-[98%] rounded-[10px] sm:w-[580px] h-[260px] transition duration-300 shadow-md hover:shadow-lg mx-auto">
       <Image path={imgSrc} />
       <div className="flex-grow p-[5px] flex flex-col">
         <div className="flex-grow">
