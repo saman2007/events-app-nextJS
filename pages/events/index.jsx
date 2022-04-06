@@ -6,8 +6,6 @@ import events from "../../data/events.json";
 export default function () {
   const router = useRouter();
 
-  console.log(router);
-
   return (
     <div className="mt-[50px] w-full flex flex-col justify-center items-center">
       <FilterContainer />

@@ -9,8 +9,6 @@ for (let index = 2030; index >= 1930; index--) {
 const YearFilter = () => {
   const router = useRouter();
 
-  console.log("year filter");
-
   const changeYearFilterHandler = (e) => {
     router.replace(
       {
