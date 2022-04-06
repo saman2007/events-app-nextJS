@@ -15,7 +15,6 @@ const EventInfosCard = (props) => {
       <div className="flex-grow p-[10px] flex justify-center flex-col">
         <Info
           text={date}
-          fontSize={16}
           color="white"
           icon={
             <svg
@@ -36,7 +35,6 @@ const EventInfosCard = (props) => {
         />
         <Info
           text={address}
-          fontSize={16}
           color="white"
           icon={
             <svg
@@ -62,7 +60,6 @@ const EventInfosCard = (props) => {
         />
         <Info
           text={description}
-          fontSize={16}
           color="white"
           icon={
             <svg

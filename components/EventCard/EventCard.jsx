@@ -12,11 +12,10 @@ const EventCard = (props) => {
       <Image path={imgSrc} classes="w-[40%] rounded-l-[10px]" />
       <div className="flex-grow p-[5px] flex flex-col">
         <div className="flex-grow">
-          <Title text={title} fontSize={20} />
+          <Title text={title} fontSize={"event-card"} />
           <Info
             color="black"
             text={date}
-            fontSize={16}
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +36,6 @@ const EventCard = (props) => {
           <Info
             color="black"
             text={address}
-            fontSize={16}
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"

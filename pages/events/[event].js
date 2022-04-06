@@ -23,7 +23,7 @@ function EventPage() {
             //else, display the events infos
           ) : (
             <>
-              <Title text={events[index].title} fontSize="30" />
+              <Title text={events[index].title} fontSize="event-page" />
               <EventInfosCard
                 image={events[index].image}
                 date={events[index].date}

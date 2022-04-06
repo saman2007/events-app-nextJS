@@ -1,9 +1,9 @@
 //events info component
 const Info = (props) => {
-  const { text, icon, fontSize, color } = props;
+  const { text, icon, color } = props;
 
   return (
-    <div className={`text-[${fontSize}px] text-${color} flex mb-[10px] last:mb-0`}>
+    <div className={`text-[16px] text-${color} flex mb-[10px] last:mb-0`}>
       {icon}
       <p className="ml-[5px] break-all">{text}</p>
     </div>
