@@ -2,7 +2,7 @@ import EventCard from "../components/EventCard/EventCard";
 import events from "../data/events.json";
 
 //main page that displays three events
-export default function () {
+function MainPage() {
   return (
     <div className="mt-[50px] w-full flex flex-col justify-center items-center">
       {/* display event from index 1, 3, 5 */}
@@ -19,3 +19,5 @@ export default function () {
     </div>
   );
 }
+
+export default MainPage;

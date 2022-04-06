@@ -4,7 +4,7 @@ import EventInfosCard from "../../components/EventPage/EventInfosCard";
 import BlueCover from "../../components/EventPage/BlueCover";
 import events from "../../data/events.json";
 
-export default function () {
+function EventPage() {
   const router = useRouter();
   //find the event that its path is equal to users entered url
   const index = events.findIndex((value) => value.path === router.asPath);
@@ -40,3 +40,5 @@ export default function () {
     </>
   );
 }
+
+export default EventPage;

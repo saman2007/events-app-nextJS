@@ -4,7 +4,7 @@ import FilterContainer from "../../components/FilterEvents/FilterContainer";
 import events from "../../data/events.json";
 
 //events page that displays all of the events
-export default function () {
+function EventsPage() {
   const router = useRouter();
 
   return (
@@ -53,3 +53,5 @@ export default function () {
     </div>
   );
 }
+
+export default EventsPage;
