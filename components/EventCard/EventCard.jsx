@@ -3,6 +3,7 @@ import Image from "../Event/Image";
 import Info from "../Event/Info";
 import Title from "../Event/Title";
 
+//a component to display an event
 const EventCard = (props) => {
   const { title, date, address, path, imgSrc } = props;
 

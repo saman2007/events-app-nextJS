@@ -1,3 +1,4 @@
+//events image component
 const Image = (props) => {
   const { path, classes } = props;
 

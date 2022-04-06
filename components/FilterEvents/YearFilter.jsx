@@ -2,13 +2,16 @@ import { useRouter } from "next/router";
 
 const years = [];
 
+//the filter should display the years from 1930 to 2030 
 for (let index = 2030; index >= 1930; index--) {
   years.push(index);
 }
 
+//year filter coomponent
 const YearFilter = () => {
   const router = useRouter();
 
+  //a function to change the query of year filter
   const changeYearFilterHandler = (e) => {
     router.replace(
       {

@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 
+//an array with months name and short name
 const months = [
   { name: "January", value: "Jan" },
   { name: "February", value: "Feb" },
@@ -15,11 +16,11 @@ const months = [
   { name: "December", value: "Dec" },
 ];
 
+//month filter component
 const MonthFilter = () => {
   const router = useRouter();
 
-  console.log("month filter");
-
+  //a function to change the query of month filter to users entered month
   const changeMonthFilterHandler = (e) => {
     router.replace(
       {

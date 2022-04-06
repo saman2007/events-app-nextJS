@@ -1,3 +1,4 @@
+//events title component
 const Title = (props) => {
   const { text, fontSize } = props;
 

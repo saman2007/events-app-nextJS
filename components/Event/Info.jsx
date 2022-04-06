@@ -1,3 +1,4 @@
+//events info component
 const Info = (props) => {
   const { text, icon, fontSize, color } = props;
 

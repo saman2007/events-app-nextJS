@@ -1,6 +1,7 @@
 import Image from "../Event/Image";
 import Info from "../Event/Info";
 
+//event infos card that should be displayed in event page
 const EventInfosCard = (props) => {
   const { image, date, address, description } = props;
   return (
